@@ -1,9 +1,8 @@
 programa
 {
     funcao inicio()
-    {
-        inteiro largura, altura
-        real area
+    { 
+        real largura, altur , area
         
         escreva("Qual a largura da área?: ") //leia(largura)
         leia(largura)
