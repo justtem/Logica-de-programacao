@@ -11,7 +11,7 @@ programa
         escreva("Qual a segunda nota do aluno?: ")
         leia(n2)
 
-        media = (n1 + n2) / 3
+        media = (n1 + n2) / 2
 
         escreva("Média: ", media)
     }
