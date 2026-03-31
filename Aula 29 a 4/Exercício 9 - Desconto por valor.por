@@ -7,9 +7,9 @@ programa
         escreva("Digite qual o valor: ")
         leia(valor)
 
-        se (valor <= 100)
+        se (valor >= 100)
         {
-            total = valor * 0.10
+            total = valor - (valor * 0.10)
         }
         senao se(valor >= 100) //se(valor >= 100) , esta parte não existia no código
         {
