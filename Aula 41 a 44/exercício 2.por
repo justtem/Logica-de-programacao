@@ -1,9 +1,11 @@
 programa {
   funcao inicio() {
-    inteiro i 
+    inteiro i , soma= 0
 
-    para (i=1; i <=15; i++){
-      escreva(" Número + ", i)
+
+    para (i=1; i <= 15; i++){
+      soma= soma + i
+      escreva(soma , "\n")
     }
   }
 }
