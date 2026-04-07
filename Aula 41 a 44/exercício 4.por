@@ -9,7 +9,7 @@ programa {
     leia(vezesEscrita)
 
    para (i=1; i<=vezesEscrita; i++){
-    escreva("Nome do usuário ", nome,"\n")
+    escreva(nome,"\n")
    }
   }
 }
