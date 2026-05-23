@@ -1,0 +1,14 @@
+package programa;
+
+public class ProgramaInicial {
+
+	public static void main(String[] args) {
+		String nome = "Ronaldinho Soccer";
+		
+		System.out.println("Olá, mundo!");
+		System.out.print("Seja bem-vindo " + nome + ". ");
+		System.out.print("Essa é sua Primeira aula de java!!");
+
+	}
+
+}
